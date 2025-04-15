@@ -8,7 +8,7 @@ public class Exercicio3 {
 		
         Scanner leia = new Scanner(System.in);
         
-        System.out.println("Seja bem vindo!!!");
+        System.out.println("Seja bem vindo!!!!!");
 
         System.out.print("Salário Bruto: ");
         float salarioBruto = leia.nextFloat();
