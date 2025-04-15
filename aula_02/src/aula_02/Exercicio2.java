@@ -18,7 +18,7 @@ public class Exercicio2 {
 
                 try {
                     if (entrada.contains(",")) {
-                    	
+                    	//usei split pra dividr a string onde houver virgula
                         String[] partes = entrada.split(",");
                         if (partes[1].length() > 2) {
                             System.out.println("Digite no máximo 2 casas decimais.");
@@ -41,7 +41,6 @@ public class Exercicio2 {
         }
 
         System.out.printf("\nSua média final foi: %.2f\n", soma / 4);
-        leia.close();
 
 	}
 
