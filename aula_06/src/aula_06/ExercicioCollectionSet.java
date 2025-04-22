@@ -12,7 +12,7 @@ public class ExercicioCollectionSet {
         Scanner leia = new Scanner(System.in);
         Set<Integer> numerosUnicos = new HashSet<>();
 
-        System.out.println("Digite 10 números inteiros (repetidos serão ignorados na listagem final):\n");
+        System.out.println("Digite 10 números inteiros (repetidos serão ignorados):\n");
 
         int contador = 0;
         while (contador < 10) {
@@ -22,8 +22,8 @@ public class ExercicioCollectionSet {
             contador++; // conta todas as entradas inclusive repetidas
         }
 
-        // mostrando os dados usando Iterator (somente os valores únicos)
-        System.out.println("\nListar dados do Set (sem repetidos):");
+        // mostrando os dados usando Iterator (somente os valores unicos)
+        System.out.println("\nListar dados do Set (sem repetir):");
         Iterator<Integer> iterator = numerosUnicos.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
