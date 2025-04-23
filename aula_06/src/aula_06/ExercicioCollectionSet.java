@@ -22,7 +22,7 @@ public class ExercicioCollectionSet {
             contador++; // conta todas as entradas inclusive repetidas
         }
 
-        // mostrando os dados usando Iterator (somente os valores unicos)
+        //  mostrando os dados usando Iterator (somente os valores unicos)
         System.out.println("\nListar dados do Set (sem repetir):");
         Iterator<Integer> iterator = numerosUnicos.iterator();
         while (iterator.hasNext()) {

@@ -23,7 +23,7 @@ public class ColecaoArrayList {
 		
 		numeros.add(input)*/
 		
-		// listando os valores da coleçao ArrayList
+		// listando os valores da coleçao ArrayListt
 		for(var numero : numeros)
 		{
 			System.out.println(numero);
